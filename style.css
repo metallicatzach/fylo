@@ -39,6 +39,7 @@ body {
     width:auto;
     display:flex;
     align-items: flex-end;
+    
 }
 .box2 {
     background-color: #1E2C69;
@@ -49,6 +50,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    
     
 }
 .box1_top {
@@ -80,7 +82,7 @@ body {
     width:50px;
 }
 .box2_top {
-    border:1px solid white;
+    
     height:100%;
     width:auto;
     margin: 20px 20px 0 20px;
@@ -89,7 +91,7 @@ body {
     align-items: center;
 }
 .box2_middle {
-    border:1px solid white;
+    
     height:100%;
     width:auto;
     margin:0 20px 0 20px;
@@ -121,24 +123,8 @@ body {
     border-radius:5px;
     margin-right:3px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .box2_bottom {
-    border:1px solid white;
+    
     height:100%;
     width:auto;
     margin:0 20px 20px 20px;
@@ -149,9 +135,56 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border:1px solid
+    
+}
+.text_box p {
+    font-weight:700;
+}
+.quote {
+    position:absolute;
+    top:290px;
+    left:965px;
+    background-color: white;
+    width:180px;
+    height:70px;
+    z-index:9999;
+    border-radius:20px 20px 0 20px;
+    display:flex;
+    align-items: center;
 }
 
+.triangle {
+    position:relative;
+    top:40px;
+    left:10px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top: 0;
+    border-bottom: 50px solid white;
+    z-index:10000;
+    rotate: 159deg;
+    
+}
+.quote_box {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px;
+    
+}
+.num {
+    font-size:3rem;
+    font-weight:800;
+}
+.gig {
+    font-size:1rem;
+    font-weight:800;
+    display:flex;
+    align-items: center;
+    color:gray;
+}
 
 
 
@@ -186,7 +219,6 @@ body {
         position:absolute;
         top:165px;
         left:12px;
-        border:1px solid white;
         width:350px;
         height:415px;
         display:flex;
@@ -197,12 +229,59 @@ body {
     .box1 {
         height:200px;
         width:330px;
-        border:1px solid white;
+        
     }
     .box2 {
         height:165px;
         width:330px;
-        border:1px solid white;
+        
     }
+    .quote {
+        position:absolute;
+        top:550px;
+        left:100px;
+        background-color: white;
+        width:180px;
+        height:70px;
+        z-index:9999;
+        border-radius:20px 20px 0 20px;
+        display:flex;
+        align-items: center;
+    }
+    
+    .triangle {
+        position:relative;
+        top:40px;
+        left:10px;
+        width: 0;
+        height: 0;
+        border: 20px solid transparent;
+        border-top: 0;
+        border-bottom: 50px solid white;
+        z-index:10000;
+        rotate: 159deg;
+        
+    }
+    .quote_box {
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin:10px;
+        
+    }
+    .num {
+        font-size:3rem;
+        font-weight:800;
+    }
+    .gig {
+        font-size:1rem;
+        font-weight:800;
+        display:flex;
+        align-items: center;
+        color:gray;
+    }
+    
+    
     
 }
